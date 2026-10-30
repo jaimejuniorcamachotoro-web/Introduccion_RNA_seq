@@ -1,0 +1,25 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	s1_R1	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s1_R1_fastqc.zip
+FastQC	all_sections	s1_R2	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s1_R2_fastqc.zip
+FastQC	all_sections	s2_R1	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s2_R1_fastqc.zip
+FastQC	all_sections	s2_R2	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s2_R2_fastqc.zip
+FastQC	all_sections	s3_R1	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s3_R1_fastqc.zip
+FastQC	all_sections	s3_R2	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s3_R2_fastqc.zip
+FastQC	all_sections	s4_R1	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s4_R1_fastqc.zip
+FastQC	all_sections	s4_R2	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s4_R2_fastqc.zip
+FastQC	all_sections	s5_R1	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s5_R1_fastqc.zip
+FastQC	all_sections	s5_R2	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s5_R2_fastqc.zip
+FastQC	all_sections	s6_R1	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s6_R1_fastqc.zip
+FastQC	all_sections	s6_R2	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s6_R2_fastqc.zip
+FastQC	all_sections	s7_R1	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s7_R1_fastqc.zip
+FastQC	all_sections	s7_R2	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s7_R2_fastqc.zip
+FastQC	all_sections	s8_R1	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s8_R1_fastqc.zip
+FastQC	all_sections	s8_R2	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s8_R2_fastqc.zip
+FastQC	all_sections	s9_R1	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s9_R1_fastqc.zip
+FastQC	all_sections	s9_R2	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s9_R2_fastqc.zip
+FastQC	all_sections	s10_R1	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s10_R1_fastqc.zip
+FastQC	all_sections	s10_R2	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s10_R2_fastqc.zip
+FastQC	all_sections	s11_R1	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s11_R1_fastqc.zip
+FastQC	all_sections	s11_R2	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s11_R2_fastqc.zip
+FastQC	all_sections	s12_R1	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s12_R1_fastqc.zip
+FastQC	all_sections	s12_R2	C:\Users\jaime\OneDrive\Documents\codigos\Curso introductorio RNA-seq\minicurso_abr_2021-main\Output\FastQC\s12_R2_fastqc.zip
