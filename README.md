@@ -1,62 +1,144 @@
-\# Introducción al análisis de RNA-seq
+\# Introduction to RNA-seq Analysis
 
 
 
-\*\*Estudiante:\*\* Jaime Junior Camacho Toro
+\*\*Author:\*\* Jaime Junior Camacho Toro
 
 
 
-Este repositorio documenta mi aprendizaje y reproducción
-
-del minicurso introductorio de RNA-seq de Comunidad BioInfo (2021).
+This repository documents my learning process and implementation of the introductory RNA-seq minicourse by Comunidad BioInfo (2021).
 
 
 
-\## Objetivo
+The project covers the main stages of an RNA-seq analysis workflow, from raw sequencing data quality control to transcript quantification and differential expression analysis.
 
 
 
-Aprender el procesamiento y análisis de datos de
-
-secuenciación de RNA para identificar transcritos
-
-diferencialmente expresados.
+\## Objectives
 
 
 
-\## Herramientas utilizadas
+\- Understand RNA-seq data processing and analysis.
+
+\- Perform sequencing quality control.
+
+\- Quantify transcript abundance.
+
+\- Explore gene expression patterns.
+
+\- Identify differentially expressed transcripts.
 
 
 
-\- FastQC y MultiQC: control de calidad.
-
-\- Salmon: cuantificación transcriptómica.
-
-\- tximeta: importación y anotación.
-
-\- DESeq2: análisis de expresión diferencial.
-
-\- PCAtools: análisis de componentes principales.
-
-\- pheatmap: visualización de patrones de expresión.
+\## Bioinformatics Tools
 
 
 
-\## Datos
+| Tool | Purpose |
+
+|---|---|
+
+| FastQC | Sequencing quality control |
+
+| MultiQC | Aggregation and visualization of quality control reports |
+
+| Salmon | Transcript-level quantification |
+
+| tximeta | Import and annotation of transcript quantifications |
+
+| SummarizedExperiment | Structured storage and exploration of genomic data |
+
+| DESeq2 | Differential expression analysis |
+
+| PCAtools | Principal component analysis |
+
+| ggplot2 | Data visualization |
+
+| pheatmap | Heatmap generation |
 
 
 
-Se analizaron 12 muestras correspondientes a dos tipos
-
-celulares (A y M) y dos condiciones experimentales
-
-(Control y Verafinib).
+\## Dataset
 
 
 
-\## Referencia
+The analysis includes 12 paired-end RNA-seq samples corresponding to:
 
 
 
-Minicurso introductorio de RNA-seq — Comunidad BioInfo, 2021.
+\- \*\*Cell lines:\*\* A and M.
+
+\- \*\*Experimental conditions:\*\* Control and Verafinib.
+
+
+
+\## Workflow
+
+
+
+1\. \*\*Quality Control:\*\* FastQC and MultiQC.
+
+2\. \*\*Transcript Quantification:\*\* Salmon.
+
+3\. \*\*Data Import and Exploration:\*\* tximeta and SummarizedExperiment.
+
+4\. \*\*Normalization and Differential Expression:\*\* DESeq2.
+
+5\. \*\*Exploratory Analysis and Visualization:\*\* PCAtools, MA plots, Volcano plots and Heatmaps.
+
+
+
+\## Repository Structure
+
+
+
+```text
+
+Introduccion\_RNA\_seq/
+
+├── bin/
+
+├── docs/
+
+├── results/
+
+│   ├── FastQC/
+
+│   ├── MultiQC/
+
+│   ├── Salmon/
+
+│   └── R/
+
+├── scripts/
+
+│   └── R/
+
+└── README.md
+
+```
+
+
+
+\## Reproducibility
+
+
+
+The repository includes analysis scripts, original course-related functions, quality control reports, Salmon quantification outputs and R-generated figures.
+
+
+
+The original R analysis code is preserved alongside the scripts organized by workflow stage.
+
+
+
+Raw FASTQ files and the Salmon reference index are not included in the repository.
+
+
+
+\## Reference
+
+
+
+Comunidad BioInfo (2021). \*Introductory RNA-seq Minicourse.\*
 
