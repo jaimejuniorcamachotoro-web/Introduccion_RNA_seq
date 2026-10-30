@@ -17,7 +17,7 @@ DEG <- as.data.frame(res)
 # 2. Cargar funciones proporcionadas en el minicurso
 # ------------------------------------------------------------
 
-source(here::here("bin", "functions.R"))
+source(file.path(proyecto, "bin", "functions.R"))
 
 # Comprobar disponibilidad de la funcion
 exists("volcanoplotR")

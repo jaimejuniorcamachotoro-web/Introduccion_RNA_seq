@@ -1,4 +1,3 @@
-
 # ============================================================
 # 01. IMPORTACION DE CUANTIFICACIONES CON TXIMETA
 # Proyecto: Analisis RNA-seq
@@ -8,20 +7,20 @@ library(tximeta)
 library(SummarizedExperiment)
 
 # Directorio original del proyecto del minicurso
-proyecto <- "C:/Users/jaime/OneDrive/Documents/codigos/Curso introductorio RNA-seq/minicurso_abr_2021-main"
+proyecto <- "C:/Users/jaime/OneDrive/Documents/codigos/Introduccion_RNA_seq"
 
 # Verificar directorio del proyecto
 dir.exists(proyecto)
 
 # Verificar las cuantificaciones de Salmon
-list.files(file.path(proyecto, "Output", "salmon_quant"))
+list.files(file.path(proyecto, "results", "Salmon"))
 
 # ------------------------------------------------------------
 # 1. Lectura de metadatos
 # ------------------------------------------------------------
 
 coldata <- read.delim(
-  here::here("Datos/Archivo_salmon/metadata.txt")
+  file.path(proyecto, "Datos", "Archivo_salmon", "metadata.txt")
 )
 
 # Cambiar el nombre de la columna unique_id
@@ -36,7 +35,7 @@ coldata
 # 2. Construccion de rutas a los archivos quant.sf
 # ------------------------------------------------------------
 
-dir <- here::here("Output", "salmon_quant")
+dir <- file.path(proyecto, "results", "Salmon")
 
 coldata$files <- file.path(
   dir,
