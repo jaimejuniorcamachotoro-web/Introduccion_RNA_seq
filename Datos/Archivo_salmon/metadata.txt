@@ -1,0 +1,13 @@
+Sample	Cell	Treatment	Replicate	unique_id
+s1	A	Control	1	A_Control_1
+s2	A	Control	2	A_Control_2
+s3	A	Control	3	A_Control_3
+s4	M	Control	1	M_Control_1
+s5	M	Control	2	M_Control_2
+s6	M	Control	3	M_Control_3
+s7	A	Verafinib	1	A_Verafinib_1
+s8	A	Verafinib	2	A_Verafinib_2
+s9	A	Verafinib	3	A_Verafinib_3
+s10	M	Verafinib	1	M_Verafinib_1
+s11	M	Verafinib	2	M_Verafinib_2
+s12	M	Verafinib	3	M_Verafinib_3
