@@ -1,0 +1,11 @@
+{
+    "salmon_version": "1.10.3",
+    "index": "Reference/salmon_index_v1.10.3_k25",
+    "libType": "A",
+    "mates1": "Datos/Archivo_fast/s3_R1.fastq.gz",
+    "mates2": "Datos/Archivo_fast/s3_R2.fastq.gz",
+    "validateMappings": [],
+    "threads": "4",
+    "output": "Output/salmon_quant/s3_quant",
+    "auxDir": "aux_info"
+}

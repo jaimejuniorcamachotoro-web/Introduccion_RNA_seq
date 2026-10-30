@@ -1,0 +1,22 @@
+{
+    "read_files": "[ Datos/Archivo_fast/s12_R1.fastq.gz, Datos/Archivo_fast/s12_R2.fastq.gz]",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 1880511,
+    "num_assigned_fragments": 1880511,
+    "num_frags_with_concordant_consistent_mappings": 1846997,
+    "num_frags_with_inconsistent_or_orphan_mappings": 37145,
+    "strand_mapping_bias": 0.00011368514736031208,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 210,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 1846997,
+    "SF": 16048,
+    "SR": 20887,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

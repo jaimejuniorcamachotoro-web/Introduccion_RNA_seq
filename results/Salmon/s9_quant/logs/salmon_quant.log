@@ -1,0 +1,51 @@
+[2026-10-26 09:46:51.646] [jointLog] [info] setting maxHashResizeThreads to 4
+[2026-10-26 09:46:51.646] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2026-10-26 09:46:51.646] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2026-10-26 09:46:51.646] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2026-10-26 09:46:51.646] [jointLog] [info] parsing read library format
+[2026-10-26 09:46:51.646] [jointLog] [info] There is 1 library.
+[2026-10-26 09:46:51.687] [jointLog] [info] Loading pufferfish index
+[2026-10-26 09:46:51.706] [jointLog] [info] Loading dense pufferfish index.
+[2026-10-26 09:47:10.185] [jointLog] [info] done
+[2026-10-26 09:47:10.503] [jointLog] [info] Index contained 233652 targets
+[2026-10-26 09:47:10.609] [jointLog] [info] Number of decoys : 0
+[2026-10-26 09:47:11.108] [jointLog] [info] Automatically detected most likely library type as ISR
+
+[2026-10-26 09:47:28.489] [jointLog] [info] Thread saw mini-batch with a maximum of 1.24% zero probability fragments
+[2026-10-26 09:47:28.503] [jointLog] [info] Thread saw mini-batch with a maximum of 1.24% zero probability fragments
+[2026-10-26 09:47:28.592] [jointLog] [info] Thread saw mini-batch with a maximum of 1.38% zero probability fragments
+[2026-10-26 09:47:28.654] [jointLog] [info] Thread saw mini-batch with a maximum of 1.24% zero probability fragments
+[2026-10-26 09:47:28.770] [jointLog] [info] Computed 199341 rich equivalence classes for further processing
+[2026-10-26 09:47:28.770] [jointLog] [info] Counted 1853429 total reads in the equivalence classes 
+[2026-10-26 09:47:28.774] [jointLog] [info] Number of mappings discarded because of alignment score : 523300
+[2026-10-26 09:47:28.774] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 24424
+[2026-10-26 09:47:28.774] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2026-10-26 09:47:28.774] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 7540
+[2026-10-26 09:47:28.787] [jointLog] [warning] Only 1853429 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2026-10-26 09:47:28.787] [jointLog] [info] Mapping rate = 92.6714%
+
+[2026-10-26 09:47:28.787] [jointLog] [info] finished quantifyLibrary()
+[2026-10-26 09:47:28.801] [jointLog] [info] Starting optimizer
+[2026-10-26 09:47:28.770] [fileLog] [info] 
+At end of round 0
+==================
+Observed 2000000 total fragments (2000000 in most recent round)
+
+[2026-10-26 09:47:35.977] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2026-10-26 09:47:35.991] [jointLog] [info] iteration = 0 | max rel diff. = 759.09
+[2026-10-26 09:47:37.261] [jointLog] [info] iteration = 100 | max rel diff. = 19.0772
+[2026-10-26 09:47:38.523] [jointLog] [info] iteration = 200 | max rel diff. = 15.4777
+[2026-10-26 09:47:39.784] [jointLog] [info] iteration = 300 | max rel diff. = 0.444329
+[2026-10-26 09:47:41.057] [jointLog] [info] iteration = 400 | max rel diff. = 4.90329
+[2026-10-26 09:47:42.329] [jointLog] [info] iteration = 500 | max rel diff. = 2.22961
+[2026-10-26 09:47:43.600] [jointLog] [info] iteration = 600 | max rel diff. = 0.149148
+[2026-10-26 09:47:44.872] [jointLog] [info] iteration = 700 | max rel diff. = 0.148611
+[2026-10-26 09:47:46.145] [jointLog] [info] iteration = 800 | max rel diff. = 0.033317
+[2026-10-26 09:47:47.412] [jointLog] [info] iteration = 900 | max rel diff. = 1.33778
+[2026-10-26 09:47:48.668] [jointLog] [info] iteration = 1000 | max rel diff. = 0.123535
+[2026-10-26 09:47:49.297] [jointLog] [info] iteration = 1051 | max rel diff. = 0.00265756
+[2026-10-26 09:47:49.305] [jointLog] [info] Finished optimizer
+[2026-10-26 09:47:49.305] [jointLog] [info] writing output 
+
